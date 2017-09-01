@@ -1,2 +1,8 @@
 *.class
 *.log
+
+.ensime_cache
+.ensime
+
+.history
+target/
