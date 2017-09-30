@@ -1,7 +1,7 @@
 # play-aws-signer
 Play module for signing outgoing AWS requests. **WORK IN PROGRESS. PRE-ALPHA.**
 
-...that said, it _does_ work with a development "installation" of [cerebro](https://github.com/lmenezes/cerebro) if you build it yourself. Drop the jar into the `lib` directory, and add the following lines to `conf/application.conf`:
+...that said, it _does_ work with a development "installation" of [cerebro](https://github.com/lmenezes/cerebro) if you build it yourself (with `sbt package`). Drop the jar into the `lib` directory, and add the following lines to `conf/application.conf`:
 
 ```scala
 play.modules.disabled += "play.api.libs.ws.ahc.AhcWSModule"
