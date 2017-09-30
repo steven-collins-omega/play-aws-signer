@@ -9,3 +9,6 @@ play.modules.enabled += "com.xogroupinc.play.AWSSignerModule"
 ```
 
 You can provide creds either explicitly in that same file, using either the keys `aws.access.key.id` and `aws.secret.access.key` or the key `aws.profile`; or it will otherwise follow the [default chain of the Java AWS SDK](http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/auth/DefaultAWSCredentialsProviderChain.html).
+
+**TODO**: many things, currently most pressingly:
+* Region currently hard-coded to `us-east-1`, needs to be configurable
