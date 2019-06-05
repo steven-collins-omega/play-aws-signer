@@ -1,5 +1,7 @@
 # play-aws-signer
-Play module for signing outgoing AWS requests. **WORK IN PROGRESS. PRE-ALPHA.**
+NOTE: this particular project is dead. I would actually recommend a different approach, outlined in https://github.com/lmenezes/cerebro/issues/111#issuecomment-356109666
+
+Play module for signing outgoing AWS requests. ~WORK IN PROGRESS.~ **PRE-ALPHA.** Not actually "in progress". I don't even have write access anymore since I no longer work for @xogroup.
 
 ...that said, it _does_ work with a development "installation" of [cerebro](https://github.com/lmenezes/cerebro) if you build it yourself (with `sbt package`). Drop the jar into the `lib` directory, and add the following lines to `conf/application.conf`:
 
